@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MealTrack.BL\MealTrack.BLL.csproj" />
+    <ProjectReference Include="..\MealTrack.DAL\MealTrack.DAL.csproj" />
+    <ProjectReference Include="..\MealTrack.Entities\MealTrack.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
